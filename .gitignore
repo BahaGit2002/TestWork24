@@ -26,9 +26,6 @@ MANIFEST
 # VS Code
 .vscode/
 
-# Docker
-Dockerfile*
-docker-compose.override.yml
 *.tar
 
 # Logs and databases
