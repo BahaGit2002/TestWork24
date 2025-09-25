@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyd
+.Python
+env/
+venv/
+env3/
+.venv/
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+*.egg
+MANIFEST
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Docker
+Dockerfile*
+docker-compose.override.yml
+*.tar
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+mongo_data/  # Если используете volumes для MongoDB
+
+# Virtual environments
+env/
+venv/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Secrets and credentials
+*.env
+.env*
+*.secret
+*.key
+config.yml
+settings.py  # Если конфигурация содержит секреты
+
+# Test and coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# FastAPI
+__pycache__/
+*.log
+
+# Temporary files
+*.swp
+*~
+
+# Ignore build
