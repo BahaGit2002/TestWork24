@@ -49,7 +49,6 @@ Thumbs.db
 
 # Secrets and credentials
 *.env
-.env*
 *.secret
 *.key
 config.yml
